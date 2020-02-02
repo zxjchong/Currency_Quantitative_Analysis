@@ -1,0 +1,7 @@
+Project Goals
+ Use data analytics to decide if there are a set of equations or set of rules that govern the prediction of Japanese/U.S. exchange rates from given daily data.
+Part 1.  Improve the quality of data. Find the best supplementary for the given daily rate data (the “best” in the sense of least square mean error for statistical moments such as mean and variance) using curve-fitting methods (e.g. use MATLAB).  
+Part 2. Determine the best time-window size for the analysis goal. Use data analytic techniques on time-windows of various size for the data to find the window sizes (i.e. time interval lengths) over which predictions of behavior can correctly be made (or with least error as mentioned above.)  
+Part 3. Examine the Japanese/U.S. exchange rates before and after a tumultuous week (e.g. a crash) in the market.  We refer to the market crash as a “catastrophe”
+Test the following Hypothesis: The rates follow a “regular behavior” before the “catastrophe” and the rate dynamics becomes subject to great uncertainty afterward.  
+Conclusion - This research provides a new scheme for evaluating the behavior of international currency markets using a quantitative measure for the significance of “catastrophic” events.
